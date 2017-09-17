@@ -1,0 +1,15 @@
+# Site settings
+title: "Suffolk Sweeps: NACS registered Chimney Sweeps, Suffolk"
+email: your-email@example.com
+description: > #
+    Professional NACS registered chimney sweeps based in Long Melford servicing
+    Suffolk and Essex
+keywords: > #
+    chimney sweeps, chimney sweeps suffolk, chimney sweeps essex,
+    chimney sweeps sudbury, chimey sweeps colchester, chimney sweeps bury st edmunds
+baseurl: ""
+url: "https://www.suffolk-sweeps.co.uk"
+google_analytics: UA-3142244-3
+
+# Build settings
+markdown: kramdown
