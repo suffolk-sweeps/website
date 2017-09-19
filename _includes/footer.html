@@ -15,16 +15,32 @@
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "url": "http://www.suffolksweeps.co.uk/",
-  "logo": "http://www.suffolksweeps.co.uk/assets/images/logo.png",
-  "name": "Suffolk Sweeps",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "Customer service",
+  "@context": "http://schema.org/",
+  "@type": "Service",
+  "serviceType": "Chimney Sweep",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Suffolk Sweeps",
+    "description": "Professional NACS registered chimney sweeps based in Long Melford servicing Suffolk and Essex",
+    "url": "http://www.suffolksweeps.co.uk",
+    "logo": "http://www.suffolksweeps.co.uk/assets/images/logo.png",
+    "image": [
+      "http://www.suffolksweeps.co.uk/assets/images/nacs.png"
+    ],
     "email": "suffolksweeps@gmail.com",
-    "telephone": "+447975740261"
+    "telephone": "+447975740261",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "23 Southgate St",
+      "addressLocality": "Long Melford",
+      "addressRegion": "Suffolk",
+      "postalCode": "CO10 9HU"
+    },
+    "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:30",
+    "sameAs": [
+      "https://www.facebook.com/suffolksweeps"
+    ],
+    "priceRange": "£"
   },
   "areaServed": {
     "@type": "GeoCircle",
@@ -35,8 +51,25 @@
     },
     "geoRadius": "32186.88"
   },
-  "sameAs": [
-    "https://www.facebook.com/suffolksweeps"
-  ]
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "7"
+  },
+  "potentialAction":{
+    "@type":"ReserveAction",
+    "target":{
+      "@type":"EntryPoint",
+      "urlTemplate":"http://www.suffolksweeps.co.uk/#Contact",
+      "inLanguage":"en-GB",
+      "actionPlatform":[
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "result":{
+      "@type":"Reservation",
+      "name":"Book a sweep"
+    }
+  }
 }
 </script>
